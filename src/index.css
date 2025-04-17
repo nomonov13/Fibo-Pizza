@@ -1,0 +1,64 @@
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  font-family: "Montserrat", serif !important;
+  color: #231F20;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  transition: 0.3s
+}
+
+.container {
+  @apply max-w-1250 mx-auto px-5;
+}
+
+@layer base {
+  h2 {
+    @apply text-yellow text-3xl font-bold
+  }
+}
+
+@layer components {
+  .btn-yellow {
+    @apply bg-yellow rounded-md py-2 px-7 font-bold items-center;
+  }
+
+  .cart-btn {
+    @apply bg-yellow text-white rounded-md py-2 px-7 font-bold items-center;
+  }
+
+  .btn-rounded {
+    @apply bg-yellow text-white py-2 px-7 rounded-full font-bold items-center;
+  }
+
+  .action-btn {
+    @apply bg-yellow text-[#473E43] py-2 px-8 rounded-lg font-bold items-center;
+  }
+
+  .btn-gray {
+    @apply bg-light-gray text-gray py-2 px-7 font-bold items-center rounded-full;
+  }
+
+  .circle {
+    @apply w-1 h-1 rounded-full bg-pink inline-block translate-y-[2px];
+  }
+
+  .btn-transparent {
+    @apply bg-transparent border-2 border-gray text-gray py-2 px-7 rounded-xl font-bold items-center;
+  }
+
+  .active {
+    @apply text-yellow rounded-lg py-1 px-1;
+  }
+
+  .border-btn {
+    @apply border-2 rounded-xl flex justify-center items-center font-bold text-13 border-light-blue py-2 px-7;
+  }
+
+}
