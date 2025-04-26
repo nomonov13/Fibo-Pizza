@@ -1,12 +1,22 @@
 import logo from '../assets/images/icons/logo.svg'
 import yandexEda from '../assets/images/icons/yandexEda.svg'
 import starIcon from '../assets/images/icons/starIcon.svg'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-const Header = () => {
+const Header = ({ card }) => {
 
     const { t, i18n } = useTranslation();
+
+    const navigate = useNavigate();
+
+    const toCard = () => {
+        navigate('./card')
+    }
+
+    const toFavourites = () => {
+        navigate('./favorites')
+    }
 
     const changeLanguage = (lang) => {
         i18n.changeLanguage(lang)
@@ -100,11 +110,11 @@ const Header = () => {
                     })}
                 </ul>
                 <div className='flex space-x-3'>
-                    <button className='btn-transparent space-x-2'>
+                    <button onClick={toFavourites} className='btn-transparent space-x-2'>
                         <span>{t('favorites')}</span>
                         <i className="bi bi-heart"></i>
                     </button>
-                    <button className='btn-yellow'>{t('basket')} | 1</button>
+                    <button onClick={toCard} className='btn-yellow'>{t('basket')} | {card.length}</button>
                     <select onChange={(e) => { changeLanguage(e.target.value) }} className='outline-0 py-1 px-3'>
                         <option value="uz">Uz</option>
                         <option value="en">En</option>

@@ -11,7 +11,7 @@ import pasta8 from '../assets/Pasta/pasta8.jpeg'
 const PastaArray = [
 
         {
-            id: 9,
+            id: 15,
             title: {
                 ru: "С креветками и трюфелями",
                 en: "With Shrimps and Truffles",
@@ -32,7 +32,7 @@ const PastaArray = [
             }
         },
         {
-            id: 10,
+            id: 16,
             title: {
                 ru: "С креветками и трюфелями",
                 en: "With Shrimps and Truffles",
@@ -53,7 +53,7 @@ const PastaArray = [
             }
         },
         {
-            id: 11,
+            id: 17,
             title: {
                 ru: "С креветками и трюфелями",
                 en: "With Shrimps and Truffles",
@@ -74,7 +74,7 @@ const PastaArray = [
             }
         },
         {
-            id: 12,
+            id: 18,
             title: {
                 ru: "С креветками и трюфелями",
                 en: "With Shrimps and Truffles",
@@ -95,7 +95,7 @@ const PastaArray = [
             }
         },
         {
-            id: 13,
+            id: 19,
             title: {
                 ru: "С креветками и трюфелями",
                 en: "With Shrimps and Truffles",
@@ -116,7 +116,7 @@ const PastaArray = [
             }
         },
         {
-            id: 14,
+            id: 20,
             title: {
                 ru: "С креветками и трюфелями",
                 en: "With Shrimps and Truffles",
@@ -137,7 +137,7 @@ const PastaArray = [
             }
         },
         {
-            id: 15,
+            id: 21,
             title: {
                 ru: "С креветками и трюфелями",
                 en: "With Shrimps and Truffles",
@@ -158,7 +158,7 @@ const PastaArray = [
             }
         },
         {
-            id: 16,
+            id: 22,
             title: {
                 ru: "С креветками и трюфелями",
                 en: "With Shrimps and Truffles",

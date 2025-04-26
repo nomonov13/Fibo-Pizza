@@ -4,12 +4,12 @@ import Location from "./Location"
 import PizzaCards from "./PizzaCard"
 import Stock from "./Stock"
 
-const All = () => {
+const All = ({ addToCard, addToFavorites , isFavourite }) => {
     return (
         <>
             <Hero />
             <New />
-            <PizzaCards/>
+            <PizzaCards addToCard={addToCard} addToFavorites={addToFavorites}  isFavourite={isFavourite} />
             <Stock />
             <Location />
         </>

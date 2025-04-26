@@ -9,7 +9,7 @@ import salad8 from '../assets/Salad/salad8.png';
 
 const SaladsArray = [
     {
-        id: 30,
+        id: 31,
         title: {
             ru: 'Дарим кибер-призы',
             en: 'We Give Cyber Prizes',
@@ -30,7 +30,7 @@ const SaladsArray = [
         }
     },
     {
-        id: 31,
+        id: 32,
         title: {
             ru: 'Дарим кибер-призы',
             en: 'We Give Cyber Prizes',
@@ -51,7 +51,7 @@ const SaladsArray = [
         }
     },
     {
-        id: 32,
+        id: 33,
         title: {
             ru: 'Дарим кибер-призы',
             en: 'We Give Cyber Prizes',
@@ -72,7 +72,7 @@ const SaladsArray = [
         }
     },
     {
-        id: 33,
+        id: 34,
         title: {
             ru: 'Дарим кибер-призы',
             en: 'We Give Cyber Prizes',
@@ -93,7 +93,7 @@ const SaladsArray = [
         }
     },
     {
-        id: 34,
+        id: 35,
         title: {
             ru: 'Дарим кибер-призы',
             en: 'We Give Cyber Prizes',
@@ -114,7 +114,7 @@ const SaladsArray = [
         }
     },
     {
-        id: 35,
+        id: 36,
         title: {
             ru: 'Дарим кибер-призы',
             en: 'We Give Cyber Prizes',
@@ -135,7 +135,7 @@ const SaladsArray = [
         }
     },
     {
-        id: 36,
+        id: 37,
         title: {
             ru: 'Дарим кибер-призы',
             en: 'We Give Cyber Prizes',
@@ -156,7 +156,7 @@ const SaladsArray = [
         }
     },
     {
-        id: 37,
+        id: 38,
         title: {
             ru: 'Дарим кибер-призы',
             en: 'We Give Cyber Prizes',

@@ -7,7 +7,7 @@ import pizza4 from '../assets/images/pizza4.jpg'
 
 const PizzaArray = [
     {
-        id: 9,
+        id: 23,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -28,7 +28,7 @@ const PizzaArray = [
         }
     },
     {
-        id: 10,
+        id: 24,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -49,7 +49,7 @@ const PizzaArray = [
         }
     },
     {
-        id: 11,
+        id: 25,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -70,7 +70,7 @@ const PizzaArray = [
         }
     },
     {
-        id: 12,
+        id: 26,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -91,7 +91,7 @@ const PizzaArray = [
         }
     },
     {
-        id: 13,
+        id: 27,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -112,7 +112,7 @@ const PizzaArray = [
         }
     },
     {
-        id: 14,
+        id: 28,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -133,7 +133,7 @@ const PizzaArray = [
         }
     },
     {
-        id: 15,
+        id: 29,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -154,7 +154,7 @@ const PizzaArray = [
         }
     },
     {
-        id: 16,
+        id: 30,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",

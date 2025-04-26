@@ -18,6 +18,12 @@ html {
   @apply max-w-1250 mx-auto px-5;
 }
 
+.cardContainer {
+  max-width: 1100px;
+  margin: auto;
+  padding-inline: 20px
+}
+
 @layer base {
   h2 {
     @apply text-yellow text-3xl font-bold

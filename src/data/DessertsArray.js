@@ -10,7 +10,7 @@ import desert8 from '../assets/Dessert/dessert8.png'
 
 const DessertsArray = [
     {
-        id: 9,
+        id: 7,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -31,7 +31,7 @@ const DessertsArray = [
         }
     },
     {
-        id: 10,
+        id: 8,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -52,7 +52,7 @@ const DessertsArray = [
         }
     },
     {
-        id: 11,
+        id: 9,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -73,7 +73,7 @@ const DessertsArray = [
         }
     },
     {
-        id: 12,
+        id: 10,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -94,7 +94,7 @@ const DessertsArray = [
         }
     },
     {
-        id: 13,
+        id: 11,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -115,7 +115,7 @@ const DessertsArray = [
         }
     },
     {
-        id: 14,
+        id: 12,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -136,7 +136,7 @@ const DessertsArray = [
         }
     },
     {
-        id: 15,
+        id: 13,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
@@ -157,7 +157,7 @@ const DessertsArray = [
         }
     },
     {
-        id: 16,
+        id: 14,
         title: {
             ru: "С креветками и трюфелями",
             en: "With Shrimps and Truffles",
