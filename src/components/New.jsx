@@ -27,7 +27,7 @@ const New = () => {
     return (
         <div className=" container px-6 py-2 mb-11">
             <h2 className="text-2xl font-bold mt-16 mb-8 text-[#231F20]">{t('new')}</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {items.map((item, index) => (
                     <Card
                         key={index}

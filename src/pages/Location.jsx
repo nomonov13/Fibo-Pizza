@@ -31,7 +31,7 @@ const Location = () => {
         <section className="bg-light-blue">
             <div className="container">
                 <h2 className="text-center pt-14 pb-16">{t('payment')}</h2>
-                <div className="flex gap-7">
+                <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
                     {deliveryCart.map((i, index) => {
                         return (
                             <div key={index} className='flex flex-col text-center px-4 mb-8 bg-[#FFFFFF] rounded-2xl items-center'>

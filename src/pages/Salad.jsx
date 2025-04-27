@@ -13,17 +13,15 @@ const Salad = ({ addToCard, addToFavorites, isFavourite }) => {
         <section>
             <div className="container">
                 <h1 className="text-3xl font-extrabold mb-6 text-yellow">{t('salad')}</h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-29 gap-y-48">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-29 gap-y-48">
                     {SaladsArray.map((salad, index) => (
-                        <div
-                            key={index}
-                            className="rounded-lg hover:shadow-lg transition duration-300 ease-in-out"
-                        >
+                        <li key={index} data-aos-duration="1000" data-aos="fade-up" className='p-4 relative hover:shadow-lg group cursor-pointer duration-300 border border-[#F3F3F7] rounded-14 flex flex-col' >
+
                             <div className="relative">
                                 <img
                                     src={salad.img}
                                     alt={salad.title[lang]}
-                                    className="w-253 h-253"
+                                    className="w-64 mx-auto"
                                 />
                                 <button onClick={() => addToFavorites(salad)} className="absolute top-0 right-5">
                                     <i className={`bi ${isFavourite(salad.id) ? 'bi-heart-fill text-red-500' : 'bi-heart'}`}></i>
@@ -34,12 +32,12 @@ const Salad = ({ addToCard, addToFavorites, isFavourite }) => {
                                 <p className="text-sm text-desc-color font-medium my-4">{salad.description[lang]}</p>
                                 <div className="flex items-center justify-between">
                                     <span className="text-xl font-bold">от {salad.price} ₽</span>
-                                    <button onClick={() => addToCard(salad)} className="cart-btn">
+                                    <button onClick={() => addToCard(salad)} className="cart-btn !py-1.5 !text-white duration-300 text-sm group-hover:!text-gray">
                                         {t('basket-2')}
                                     </button>
                                 </div>
                             </div>
-                        </div>
+                        </li>
                     ))}
                 </div>
             </div>
