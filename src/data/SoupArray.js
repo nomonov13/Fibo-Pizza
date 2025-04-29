@@ -1,4 +1,4 @@
-import soup1 from '../assets/soup/soup1.png'
+import soup1 from '../assets/Soup/soup1.png'
 import soup2 from '../assets/Soup/soup2.png'
 import soup3 from '../assets/Soup/soup3.png'
 import soup4 from '../assets/Soup/soup4.png'
