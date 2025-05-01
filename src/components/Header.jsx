@@ -112,7 +112,7 @@ const Header = ({ card }) => {
                         <option value="en">En</option>
                         <option value="ru">Ru</option>
                     </select>
-                    <a className='text-yellow text-2xl font-bold hidden md:block' href="">998 93-917-07-31</a>
+                    <a className='text-yellow text-2xl font-bold hidden md:block' href="">998 94-858-34-57</a>
                     <button onClick={toCard} className='btn-yellow hidden md:block lg:hidden'>{t('basket')} | {card.length}</button>
                     <button aria-label='menu toggle' onClick={toggleMenu} className="lg:hidden flex flex-col justify-center items-center z-50 p-0 ml-5">
                         <span className={`bg-black block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${open ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`} >
@@ -161,7 +161,7 @@ const Header = ({ card }) => {
                     )
                 })}
                 <button className='text-black text-14 font-bold'>Войти</button>
-                <a className='text-black text-2xl font-bold' href="">998 93-917-07-31</a>
+                <a className='text-black text-2xl font-bold' href="">998 94-858-34-57  </a>
                 <button onClick={toCard} className='btn-yellow bg-white'>{t('basket')} | {card.length}</button>
             </ul>}
         </header>

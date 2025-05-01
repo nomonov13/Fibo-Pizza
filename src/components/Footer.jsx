@@ -22,7 +22,7 @@ const Footer = () => {
           <div className='flex items-center justify-between'>
             <a href="#"><img src={logo} alt="logo" /></a>
             <div className='space-y-1 block md:hidden text-end'>
-              <a className='text-yellow text-2xl font-bold block ' href="tel">998 93-917-07-31</a>
+              <a className='text-yellow text-2xl font-bold block ' href="tel">998 94-858-34-57</a>
               <button className='btn-gray !py-2'>{t('request-call')}</button>
             </div>
           </div>

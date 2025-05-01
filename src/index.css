@@ -64,7 +64,7 @@ html {
   }
 
   .border-btn {
-    @apply border-2 rounded-xl flex justify-center items-center font-bold text-13 border-light-blue py-2 px-7;
+    @apply border-2 rounded-xl flex justify-center items-center font-bold text-13 border-light-blue py-2.5;
   }
 
 }

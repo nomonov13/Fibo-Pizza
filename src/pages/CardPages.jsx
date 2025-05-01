@@ -52,7 +52,7 @@ const CardPages = ({ card, deleteCard, updateCount, decreaseCount }) => {
                                     </button>
                                 </div>
                                 <h3 className="text-2xl font-extrabold ">{pizza.title[lang]}</h3>
-                                <p className="text-sm text-desc-color font-medium my-4 w-[600px]">{pizza.description[lang]}</p>
+                                <p className="text-sm text-desc-color font-medium my-4">{pizza.description[lang]}</p>
                             </div>
                             <div className="flex items-center space-x-4">
                                 <span className="text-2xl font-bold text-yellow hidden lg:block">{pizza.price * pizza.count} ₽</span>
@@ -71,9 +71,12 @@ const CardPages = ({ card, deleteCard, updateCount, decreaseCount }) => {
 
                 }
 
-                <h3 className="text-2xl font-semibold absolute right-12">
-                    All price: <span className="text-yellow">{total} ₽</span>
-                </h3>
+                <div className="container">
+                    <h3 className="text-2xl font-semibold ">
+                        All price:
+                        <span className="text-yellow">{total} ₽</span>
+                    </h3>
+                </div>
             </div>
         </section>
     )
