@@ -160,7 +160,10 @@ const Header = ({ card }) => {
                         </li>
                     )
                 })}
-                <button className='text-black text-14 font-bold'>Войти</button>
+                <button onClick={toFavourites} className='btn-transparent space-x-2'>
+                    <span>{t('favorites')}</span>
+                    <i className="bi bi-heart"></i>
+                </button>
                 <a className='text-black text-2xl font-bold' href="">998 94-858-34-57  </a>
                 <button onClick={toCard} className='btn-yellow bg-white'>{t('basket')} | {card.length}</button>
             </ul>}
